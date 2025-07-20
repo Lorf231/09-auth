@@ -9,7 +9,8 @@
 }
 
 .pagination li {
-  border: 1px solid #dee2e6;
+  /* background-color: rgba(0, 0, 0, 0.068); */
+  border: 1px solid #d4d9db;
   border-radius: 4px;
   cursor: pointer;
   min-width: 36px;
@@ -29,7 +30,7 @@
 }
 
 .pagination li:hover {
-  background-color: #e9ecef;
+  background-color: #cbdbec;
 }
 
 .pagination li.active:hover {

@@ -7,10 +7,8 @@ import { useDebounce } from "use-debounce";
 import NoteList from "@/components/NoteList/NoteList";
 import SearchBox from "@/components/SearchBox/SearchBox";
 import Pagination from "@/components/Pagination/Pagination";
-// import Modal from '@/components/Modal/Modal';
-import { fetchNotes, NotesResponse } from "@/lib/api";
-// import NoteForm from '@/components/NoteForm/NoteForm';
 import Link from "next/link";
+import { fetchNotes, NotesResponse } from "@/lib/api/clientApi";
 
 type NotesClientProps = {
   initialData: NotesResponse;
